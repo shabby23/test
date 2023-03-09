@@ -1,0 +1,88 @@
+body {
+
+    margin-top: -90px;
+    font-family: sans-serif;
+}
+
+header {
+  border: 3px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 30px;
+}
+
+
+section {
+	margin-top: -80px;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+#home .profile-img {
+    width: 25%;
+    border-radius: 20%;
+}
+	
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('wallpaper.png');
+}
+
+
+#mySidenav a {
+  position: absolute;
+  left: 10px;
+  transition: 0.3s;
+  padding: 5px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#insta {
+  top: 330px;
+  background-color: #428BCA;
+}
+
+
+#mySidenavServices a {
+  position: absolute;
+  left: 10px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 450px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenavServices a:hover {
+  left: 0;
+}
+
+#call {
+  top: 420px;
+  background-color: #428BCA;
+
+}
